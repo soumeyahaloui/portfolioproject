@@ -1,11 +1,3 @@
-# Number Guessing Game - Console Version (MVP)
-# ---------------------------------------------------------
-# This is the Minimal Viable Product (MVP) version of a number guessing game.
-# It is a simple console-based application designed to establish the core functionality of the game.
-# A more advanced version with a Graphical User Interface (GUI) is currently under development.
-# This advanced version will include enhanced user interaction features and a more intuitive gameplay experience.
-# ---------------------------------------------------------
-
 def get_player_numbers(player_name):
     print(f"{player_name}, enter your 4 numbers (from 1 to 20), separated by spaces:")
     numbers = input().split()
